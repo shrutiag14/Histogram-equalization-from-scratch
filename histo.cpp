@@ -77,7 +77,7 @@ void histDisplay(int histogram[], const char* name)
 int main()
 {
     // Load the image
-    Mat image = imread("scene.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+    Mat image = imread("HE.jpg", CV_LOAD_IMAGE_GRAYSCALE);
  
     // Generate the histogram
     int histogram[256];
